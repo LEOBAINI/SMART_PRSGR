@@ -1,0 +1,26 @@
+(DESCRIPTION =
+(ADDRESS = (PROTOCOL = TCP)(HOST = PROMOBILEHBDPRE.emea.prosegur.local)(PORT = 1521))
+(CONNECT_DATA =
+(SERVER = DEDICATED)
+(SERVICE_NAME = PROMOBILEH)
+
+---------------------------------------------------------------------------------------------
+
+Marce, te paso los datos del usuario para el entorno de PRE de SMART, se ha creado con permisos de consulta
+
+y escritura sobre la tabla ACTIVEMB.SMPR_TVIDEO_CREDENTIALS, pruébalo y si diera error o cualquier otra cosa 
+
+lo veo con bbdd 
+
+datos posta
+USRTVIDEO / Report$2017pe SIEBPWDBDDES.PROSEGUR.ES
+SMART =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = SIEBPWDBDDES.PROSEGUR.ES)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SIEBPWD)
+    )
+  )
+
+
